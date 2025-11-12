@@ -12,4 +12,8 @@ sum = 0
 for i in List:
   if int(i) <60:
     sum += 1
-print(sum)
+maxvalue = max(List)
+minvalue = min(List)
+
+print(maxvalue)
+print(minvalue)
