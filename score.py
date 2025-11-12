@@ -13,3 +13,11 @@ for i in List:
   if int(i) <60:
     sum += 1
 print(sum)
+
+total = 0
+for i in List:
+  total += int(i)
+
+average = total / len(List)
+print(f"{average:.2f}")
+
