@@ -14,6 +14,11 @@ for i in List:
     sum += 1
 print(sum)
 
+maxvalue = max(List)
+minvalue = min(List)
+
+print(maxvalue)
+print(minvalue)
 total = 0
 for i in List:
   total += int(i)
