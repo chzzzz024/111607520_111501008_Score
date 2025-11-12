@@ -19,3 +19,10 @@ minvalue = min(List)
 
 print(maxvalue)
 print(minvalue)
+total = 0
+for i in List:
+  total += int(i)
+
+average = total / len(List)
+print(f"{average:.2f}")
+
